@@ -25,7 +25,6 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="LOGO.png"/></td>
   <td id="projectalign">
    <div id="projectname">AOS Fog of War
    </div>
@@ -121,7 +120,12 @@ Properties</h2></td></tr>
 <tr class="memitem:aede4ce66b433e72ebb9a575d7711344e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_level_column.html">LevelColumn</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_level_data.html#aede4ce66b433e72ebb9a575d7711344e">this[int index]</a><code> [get, set]</code></td></tr>
 <tr class="separator:aede4ce66b433e72ebb9a575d7711344e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class for storing the base level data.</p>
+<p>This class is later serialized into Json format.<br  />
+Empty spaces are stored as 0, while the obstacles are stored as 1.<br  />
+If a level is loaded instead of being scanned, the level dimension properties of csFogWar will be replaced by the level data. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a311c7b45a7333e9cbe261b30815ede88" name="a311c7b45a7333e9cbe261b30815ede88"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a311c7b45a7333e9cbe261b30815ede88">&#9670;&#160;</a></span>AddColumn()</h2>
 
@@ -145,9 +149,9 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   38</span>            {</div>
-<div class="line"><span class="lineno">   39</span>                levelRow.Add(levelColumn);</div>
-<div class="line"><span class="lineno">   40</span>            }</div>
+<div class="fragment"><div class="line"><span class="lineno">   44</span>            {</div>
+<div class="line"><span class="lineno">   45</span>                levelRow.Add(levelColumn);</div>
+<div class="line"><span class="lineno">   46</span>            }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -232,32 +236,32 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   43</span>                                               {</div>
-<div class="line"><span class="lineno">   44</span>                <span class="keyword">get</span> {</div>
-<div class="line"><span class="lineno">   45</span>                    <span class="keywordflow">if</span> (index &gt;= 0 &amp;&amp; index &lt; levelRow.Count)</div>
-<div class="line"><span class="lineno">   46</span>                    {</div>
-<div class="line"><span class="lineno">   47</span>                        <span class="keywordflow">return</span> levelRow[index];</div>
-<div class="line"><span class="lineno">   48</span>                    }</div>
-<div class="line"><span class="lineno">   49</span>                    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">   50</span>                    {</div>
-<div class="line"><span class="lineno">   51</span>                        Debug.LogErrorFormat(<span class="stringliteral">&quot;index given in x axis is out of range&quot;</span>);</div>
-<div class="line"><span class="lineno">   52</span> </div>
-<div class="line"><span class="lineno">   53</span>                        <span class="keywordflow">return</span> <span class="keyword">null</span>;</div>
+<div class="fragment"><div class="line"><span class="lineno">   49</span>                                               {</div>
+<div class="line"><span class="lineno">   50</span>                <span class="keyword">get</span> {</div>
+<div class="line"><span class="lineno">   51</span>                    <span class="keywordflow">if</span> (index &gt;= 0 &amp;&amp; index &lt; levelRow.Count)</div>
+<div class="line"><span class="lineno">   52</span>                    {</div>
+<div class="line"><span class="lineno">   53</span>                        <span class="keywordflow">return</span> levelRow[index];</div>
 <div class="line"><span class="lineno">   54</span>                    }</div>
-<div class="line"><span class="lineno">   55</span>                }</div>
-<div class="line"><span class="lineno">   56</span>                <span class="keyword">set</span> {</div>
-<div class="line"><span class="lineno">   57</span>                    <span class="keywordflow">if</span> (index &gt;= 0 &amp;&amp; index &lt; levelRow.Count)</div>
-<div class="line"><span class="lineno">   58</span>                    {</div>
-<div class="line"><span class="lineno">   59</span>                        levelRow[index] = value;</div>
+<div class="line"><span class="lineno">   55</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   56</span>                    {</div>
+<div class="line"><span class="lineno">   57</span>                        Debug.LogErrorFormat(<span class="stringliteral">&quot;index given in x axis is out of range&quot;</span>);</div>
+<div class="line"><span class="lineno">   58</span> </div>
+<div class="line"><span class="lineno">   59</span>                        <span class="keywordflow">return</span> <span class="keyword">null</span>;</div>
 <div class="line"><span class="lineno">   60</span>                    }</div>
-<div class="line"><span class="lineno">   61</span>                    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">   62</span>                    {</div>
-<div class="line"><span class="lineno">   63</span>                        Debug.LogErrorFormat(<span class="stringliteral">&quot;index given in x axis is out of range&quot;</span>);</div>
-<div class="line"><span class="lineno">   64</span> </div>
-<div class="line"><span class="lineno">   65</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   61</span>                }</div>
+<div class="line"><span class="lineno">   62</span>                <span class="keyword">set</span> {</div>
+<div class="line"><span class="lineno">   63</span>                    <span class="keywordflow">if</span> (index &gt;= 0 &amp;&amp; index &lt; levelRow.Count)</div>
+<div class="line"><span class="lineno">   64</span>                    {</div>
+<div class="line"><span class="lineno">   65</span>                        levelRow[index] = value;</div>
 <div class="line"><span class="lineno">   66</span>                    }</div>
-<div class="line"><span class="lineno">   67</span>                }</div>
-<div class="line"><span class="lineno">   68</span>            }</div>
+<div class="line"><span class="lineno">   67</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   68</span>                    {</div>
+<div class="line"><span class="lineno">   69</span>                        Debug.LogErrorFormat(<span class="stringliteral">&quot;index given in x axis is out of range&quot;</span>);</div>
+<div class="line"><span class="lineno">   70</span> </div>
+<div class="line"><span class="lineno">   71</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   72</span>                    }</div>
+<div class="line"><span class="lineno">   73</span>                }</div>
+<div class="line"><span class="lineno">   74</span>            }</div>
 </div><!-- fragment -->
 </div>
 </div>

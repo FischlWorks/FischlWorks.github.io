@@ -25,7 +25,6 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="LOGO.png"/></td>
   <td id="projectalign">
    <div id="projectname">AOS Fog of War
    </div>
@@ -141,13 +140,18 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  137</span>            {</div>
-<div class="line"><span class="lineno">  138</span>                currentLevelCoordinates = <span class="keyword">new</span> Vector2Int(</div>
-<div class="line"><span class="lineno">  139</span>                    fogWar.GetUnitX(revealerTransform.position.x),</div>
-<div class="line"><span class="lineno">  140</span>                    fogWar.GetUnitY(revealerTransform.position.z));</div>
-<div class="line"><span class="lineno">  141</span> </div>
-<div class="line"><span class="lineno">  142</span>                <span class="keywordflow">return</span> currentLevelCoordinates;</div>
-<div class="line"><span class="lineno">  143</span>            }</div>
+<div class="fragment"><div class="line"><span class="lineno">  143</span>            {</div>
+<div class="line"><span class="lineno">  144</span>                currentLevelCoordinates = <span class="keyword">new</span> Vector2Int(</div>
+<div class="line"><span class="lineno">  145</span>                    fogWar.GetUnitX(revealerTransform.position.x),</div>
+<div class="line"><span class="lineno">  146</span>                    fogWar.GetUnitY(revealerTransform.position.z));</div>
+<div class="line"><span class="lineno">  147</span> </div>
+<div class="line"><span class="lineno">  148</span>                <span class="keywordflow">if</span> (lastSeenAt == <span class="keyword">new</span> Vector2Int(Int32.MaxValue, Int32.MaxValue))</div>
+<div class="line"><span class="lineno">  149</span>                {</div>
+<div class="line"><span class="lineno">  150</span>                    lastSeenAt = currentLevelCoordinates;</div>
+<div class="line"><span class="lineno">  151</span>                }</div>
+<div class="line"><span class="lineno">  152</span> </div>
+<div class="line"><span class="lineno">  153</span>                <span class="keywordflow">return</span> currentLevelCoordinates;</div>
+<div class="line"><span class="lineno">  154</span>            }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -171,13 +175,13 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  160</span>                                                       {</div>
-<div class="line"><span class="lineno">  161</span>                <span class="keyword">get</span> {</div>
-<div class="line"><span class="lineno">  162</span>                    lastSeenAt = currentLevelCoordinates;</div>
-<div class="line"><span class="lineno">  163</span> </div>
-<div class="line"><span class="lineno">  164</span>                    <span class="keywordflow">return</span> currentLevelCoordinates;</div>
-<div class="line"><span class="lineno">  165</span>                }</div>
-<div class="line"><span class="lineno">  166</span>            }</div>
+<div class="fragment"><div class="line"><span class="lineno">  171</span>                                                       {</div>
+<div class="line"><span class="lineno">  172</span>                <span class="keyword">get</span> {</div>
+<div class="line"><span class="lineno">  173</span>                    lastSeenAt = currentLevelCoordinates;</div>
+<div class="line"><span class="lineno">  174</span> </div>
+<div class="line"><span class="lineno">  175</span>                    <span class="keywordflow">return</span> currentLevelCoordinates;</div>
+<div class="line"><span class="lineno">  176</span>                }</div>
+<div class="line"><span class="lineno">  177</span>            }</div>
 </div><!-- fragment -->
 </div>
 </div>

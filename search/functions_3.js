@@ -5,6 +5,7 @@ var searchData=
   ['getunitvector_2',['GetUnitVector',['../class_fischl_works___fog_war_1_1cs_fog_war.html#ada6ea5fa33abdcee005a34b9912a2913',1,'FischlWorks_FogWar::csFogWar']]],
   ['getunitx_3',['GetUnitX',['../class_fischl_works___fog_war_1_1cs_fog_war.html#a4ed72f8e08fe94844b2bc7d7fcdb6b0f',1,'FischlWorks_FogWar::csFogWar']]],
   ['getunity_4',['GetUnitY',['../class_fischl_works___fog_war_1_1cs_fog_war.html#ac9e13f07c30e6a2f6fdc62e36f3be250',1,'FischlWorks_FogWar::csFogWar']]],
-  ['getworldx_5',['GetWorldX',['../class_fischl_works___fog_war_1_1cs_fog_war.html#a1bf8313c42312daa0d32c981740b64e8',1,'FischlWorks_FogWar::csFogWar']]],
-  ['getworldy_6',['GetWorldY',['../class_fischl_works___fog_war_1_1cs_fog_war.html#a9b7d5077db08594c488003af98db5f4a',1,'FischlWorks_FogWar::csFogWar']]]
+  ['getworldvector_5',['GetWorldVector',['../class_fischl_works___fog_war_1_1cs_fog_war.html#a6aa03681dca309f8e01b276d7cb94fc3',1,'FischlWorks_FogWar::csFogWar']]],
+  ['getworldx_6',['GetWorldX',['../class_fischl_works___fog_war_1_1cs_fog_war.html#a1bf8313c42312daa0d32c981740b64e8',1,'FischlWorks_FogWar::csFogWar']]],
+  ['getworldy_7',['GetWorldY',['../class_fischl_works___fog_war_1_1cs_fog_war.html#a9b7d5077db08594c488003af98db5f4a',1,'FischlWorks_FogWar::csFogWar']]]
 ];
