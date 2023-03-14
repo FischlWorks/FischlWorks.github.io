@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "AOS Fog of War", "index.html", [
-    [ "API : AOS Fog of War", "index.html", "index" ],
+    [ "API : AOS Fog of War v1.1", "index.html", "index" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
