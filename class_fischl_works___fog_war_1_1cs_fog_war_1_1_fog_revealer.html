@@ -101,6 +101,8 @@ $(document).ready(function(){initNavTree('class_fischl_works___fog_war_1_1cs_fog
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a3c06444a0f9708eb63cac1bd84c90671"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer.html#a3c06444a0f9708eb63cac1bd84c90671">FogRevealer</a> (Transform revealerTransform, int sightRange, bool updateOnlyOnMove)</td></tr>
+<tr class="separator:a3c06444a0f9708eb63cac1bd84c90671"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5096277e2eb8b0abf9ebd9b94a3662a9"><td class="memItemLeft" align="right" valign="top">Vector2Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer.html#a5096277e2eb8b0abf9ebd9b94a3662a9">GetCurrentLevelCoordinates</a> (<a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html">csFogWar</a> fogWar)</td></tr>
 <tr class="separator:a5096277e2eb8b0abf9ebd9b94a3662a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -117,6 +119,54 @@ Properties</h2></td></tr>
 <tr class="memitem:a25d5de2b9774a333d4931319f8a81a69"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer.html#a25d5de2b9774a333d4931319f8a81a69">_UpdateOnlyOnMove</a><code> [get]</code></td></tr>
 <tr class="separator:a25d5de2b9774a333d4931319f8a81a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a3c06444a0f9708eb63cac1bd84c90671" name="a3c06444a0f9708eb63cac1bd84c90671"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c06444a0f9708eb63cac1bd84c90671">&#9670;&#160;</a></span>FogRevealer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FischlWorks_FogWar.csFogWar.FogRevealer.FogRevealer </td>
+          <td>(</td>
+          <td class="paramtype">Transform&#160;</td>
+          <td class="paramname"><em>revealerTransform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sightRange</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>updateOnlyOnMove</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  143</span>            {</div>
+<div class="line"><span class="lineno">  144</span>                this.revealerTransform = revealerTransform;</div>
+<div class="line"><span class="lineno">  145</span>                this.sightRange = sightRange;</div>
+<div class="line"><span class="lineno">  146</span>                this.updateOnlyOnMove = updateOnlyOnMove;</div>
+<div class="line"><span class="lineno">  147</span>            }</div>
+</div><!-- fragment -->
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a5096277e2eb8b0abf9ebd9b94a3662a9" name="a5096277e2eb8b0abf9ebd9b94a3662a9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5096277e2eb8b0abf9ebd9b94a3662a9">&#9670;&#160;</a></span>GetCurrentLevelCoordinates()</h2>
@@ -141,18 +191,18 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  143</span>            {</div>
-<div class="line"><span class="lineno">  144</span>                currentLevelCoordinates = <span class="keyword">new</span> Vector2Int(</div>
-<div class="line"><span class="lineno">  145</span>                    fogWar.GetUnitX(revealerTransform.position.x),</div>
-<div class="line"><span class="lineno">  146</span>                    fogWar.GetUnitY(revealerTransform.position.z));</div>
-<div class="line"><span class="lineno">  147</span> </div>
-<div class="line"><span class="lineno">  148</span>                <span class="keywordflow">if</span> (lastSeenAt == <span class="keyword">new</span> Vector2Int(Int32.MaxValue, Int32.MaxValue))</div>
-<div class="line"><span class="lineno">  149</span>                {</div>
-<div class="line"><span class="lineno">  150</span>                    lastSeenAt = currentLevelCoordinates;</div>
-<div class="line"><span class="lineno">  151</span>                }</div>
-<div class="line"><span class="lineno">  152</span> </div>
-<div class="line"><span class="lineno">  153</span>                <span class="keywordflow">return</span> currentLevelCoordinates;</div>
-<div class="line"><span class="lineno">  154</span>            }</div>
+<div class="fragment"><div class="line"><span class="lineno">  150</span>            {</div>
+<div class="line"><span class="lineno">  151</span>                currentLevelCoordinates = <span class="keyword">new</span> Vector2Int(</div>
+<div class="line"><span class="lineno">  152</span>                    fogWar.GetUnitX(revealerTransform.position.x),</div>
+<div class="line"><span class="lineno">  153</span>                    fogWar.GetUnitY(revealerTransform.position.z));</div>
+<div class="line"><span class="lineno">  154</span> </div>
+<div class="line"><span class="lineno">  155</span>                <span class="keywordflow">if</span> (lastSeenAt == <span class="keyword">new</span> Vector2Int(Int32.MaxValue, Int32.MaxValue))</div>
+<div class="line"><span class="lineno">  156</span>                {</div>
+<div class="line"><span class="lineno">  157</span>                    lastSeenAt = currentLevelCoordinates;</div>
+<div class="line"><span class="lineno">  158</span>                }</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>                <span class="keywordflow">return</span> currentLevelCoordinates;</div>
+<div class="line"><span class="lineno">  161</span>            }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -176,13 +226,13 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  171</span>                                                       {</div>
-<div class="line"><span class="lineno">  172</span>                <span class="keyword">get</span> {</div>
-<div class="line"><span class="lineno">  173</span>                    lastSeenAt = currentLevelCoordinates;</div>
-<div class="line"><span class="lineno">  174</span> </div>
-<div class="line"><span class="lineno">  175</span>                    <span class="keywordflow">return</span> currentLevelCoordinates;</div>
-<div class="line"><span class="lineno">  176</span>                }</div>
-<div class="line"><span class="lineno">  177</span>            }</div>
+<div class="fragment"><div class="line"><span class="lineno">  178</span>                                                       {</div>
+<div class="line"><span class="lineno">  179</span>                <span class="keyword">get</span> {</div>
+<div class="line"><span class="lineno">  180</span>                    lastSeenAt = currentLevelCoordinates;</div>
+<div class="line"><span class="lineno">  181</span> </div>
+<div class="line"><span class="lineno">  182</span>                    <span class="keywordflow">return</span> currentLevelCoordinates;</div>
+<div class="line"><span class="lineno">  183</span>                }</div>
+<div class="line"><span class="lineno">  184</span>            }</div>
 </div><!-- fragment -->
 </div>
 </div>

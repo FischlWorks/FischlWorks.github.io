@@ -1,5 +1,6 @@
 var class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer =
 [
+    [ "FogRevealer", "class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer.html#a3c06444a0f9708eb63cac1bd84c90671", null ],
     [ "GetCurrentLevelCoordinates", "class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer.html#a5096277e2eb8b0abf9ebd9b94a3662a9", null ],
     [ "_CurrentLevelCoordinates", "class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer.html#a542c30c0ce96b7e67c0ca01d552d8fb9", null ],
     [ "_LastSeenAt", "class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer.html#ad449c6681e6c4d9c90e3308720033c87", null ],

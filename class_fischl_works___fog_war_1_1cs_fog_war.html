@@ -120,9 +120,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a556aa760dc78940024a0cb2eca5f2817"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a556aa760dc78940024a0cb2eca5f2817">AddFogRevealer</a> (<a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer.html">FogRevealer</a> fogRevealer)</td></tr>
-<tr class="memdesc:a556aa760dc78940024a0cb2eca5f2817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new FogRevealer instance to the list.  <br /></td></tr>
-<tr class="separator:a556aa760dc78940024a0cb2eca5f2817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41589c87dadd842ae4b8227d54fdf33b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a41589c87dadd842ae4b8227d54fdf33b">AddFogRevealer</a> (<a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer.html">FogRevealer</a> fogRevealer)</td></tr>
+<tr class="memdesc:a41589c87dadd842ae4b8227d54fdf33b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new FogRevealer instance to the list and returns its index.  <br /></td></tr>
+<tr class="separator:a41589c87dadd842ae4b8227d54fdf33b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4709bc50c93832d24cf862babb385a55"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a4709bc50c93832d24cf862babb385a55">CheckLevelGridRange</a> (Vector2Int levelCoordinates)</td></tr>
 <tr class="memdesc:a4709bc50c93832d24cf862babb385a55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given level coordinates are within level dimension range.  <br /></td></tr>
 <tr class="separator:a4709bc50c93832d24cf862babb385a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,12 +150,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9b7d5077db08594c488003af98db5f4a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a9b7d5077db08594c488003af98db5f4a">GetWorldY</a> (int yValue)</td></tr>
 <tr class="memdesc:a9b7d5077db08594c488003af98db5f4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts level coordinate to corresponding unit world coordinates.  <br /></td></tr>
 <tr class="separator:a9b7d5077db08594c488003af98db5f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2a9e832047a123c9513bd5843165a1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#af2a9e832047a123c9513bd5843165a1a">RemoveFogRevealer</a> (int revealerIndex)</td></tr>
+<tr class="memdesc:af2a9e832047a123c9513bd5843165a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a FogRevealer instance from the list with index.  <br /></td></tr>
+<tr class="separator:af2a9e832047a123c9513bd5843165a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7bec1575eb21e43f21c725b56429a2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#ab7bec1575eb21e43f21c725b56429a2d">ReplaceFogRevealerList</a> (List&lt; <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer.html">FogRevealer</a> &gt; fogRevealers)</td></tr>
+<tr class="memdesc:ab7bec1575eb21e43f21c725b56429a2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the FogRevealer list with the given one.  <br /></td></tr>
+<tr class="separator:ab7bec1575eb21e43f21c725b56429a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71bb4c2871850a9fb7bf3c48abdfaaa3"><td class="memItemLeft" align="right" valign="top">Vector2Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a71bb4c2871850a9fb7bf3c48abdfaaa3">WorldToLevel</a> (Vector3 worldCoordinates)</td></tr>
 <tr class="memdesc:a71bb4c2871850a9fb7bf3c48abdfaaa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts unit (divided by unitScale, then rounded) world coordinates to level coordinates.  <br /></td></tr>
 <tr class="separator:a71bb4c2871850a9fb7bf3c48abdfaaa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:afd464799b6396d9fcdea5da93caca6af"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer.html">FogRevealer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#afd464799b6396d9fcdea5da93caca6af">_FogRevealers</a><code> [get]</code></td></tr>
+<tr class="separator:afd464799b6396d9fcdea5da93caca6af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa55ae68cd6fafd4eaebc64fae566be5e"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#aa55ae68cd6fafd4eaebc64fae566be5e">_LevelMidPoint</a><code> [get]</code></td></tr>
+<tr class="separator:aa55ae68cd6fafd4eaebc64fae566be5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5e2f27196004a975a3e6c9c8bf8077c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#aa5e2f27196004a975a3e6c9c8bf8077c">_UnitScale</a><code> [get]</code></td></tr>
 <tr class="separator:aa5e2f27196004a975a3e6c9c8bf8077c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a769c1938ce37c4529e71bc7646ba53ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_level_data.html">LevelData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a769c1938ce37c4529e71bc7646ba53ba">levelData</a> = new <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_level_data.html">LevelData</a>()<code> [get]</code></td></tr>
@@ -170,8 +180,8 @@ and is resposible for scanning / saving / loading the LevelData object.<br  />
 The class handles the update frequency of the fog, plus some shader businesses.<br  />
 Various public interfaces related to FogRevealer's FOV are also available. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a556aa760dc78940024a0cb2eca5f2817" name="a556aa760dc78940024a0cb2eca5f2817"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a556aa760dc78940024a0cb2eca5f2817">&#9670;&#160;</a></span>AddFogRevealer()</h2>
+<a id="a41589c87dadd842ae4b8227d54fdf33b" name="a41589c87dadd842ae4b8227d54fdf33b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41589c87dadd842ae4b8227d54fdf33b">&#9670;&#160;</a></span>AddFogRevealer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,7 +190,7 @@ Various public interfaces related to FogRevealer's FOV are also available. </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void FischlWorks_FogWar.csFogWar.AddFogRevealer </td>
+          <td class="memname">int FischlWorks_FogWar.csFogWar.AddFogRevealer </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer.html">FogRevealer</a>&#160;</td>
           <td class="paramname"><em>fogRevealer</em></td><td>)</td>
@@ -194,10 +204,12 @@ Various public interfaces related to FogRevealer's FOV are also available. </p>
 </table>
 </div><div class="memdoc">
 
-<p>Adds a new FogRevealer instance to the list. </p>
-<div class="fragment"><div class="line"><span class="lineno">  592</span>        {</div>
-<div class="line"><span class="lineno">  593</span>            fogRevealers.Add(fogRevealer);</div>
-<div class="line"><span class="lineno">  594</span>        }</div>
+<p>Adds a new FogRevealer instance to the list and returns its index. </p>
+<div class="fragment"><div class="line"><span class="lineno">  601</span>        {</div>
+<div class="line"><span class="lineno">  602</span>            fogRevealers.Add(fogRevealer);</div>
+<div class="line"><span class="lineno">  603</span> </div>
+<div class="line"><span class="lineno">  604</span>            <span class="keywordflow">return</span> fogRevealers.Count - 1;</div>
+<div class="line"><span class="lineno">  605</span>        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -226,22 +238,22 @@ Various public interfaces related to FogRevealer's FOV are also available. </p>
 </div><div class="memdoc">
 
 <p>Checks if the given level coordinates are within level dimension range. </p>
-<div class="fragment"><div class="line"><span class="lineno">  600</span>        {</div>
-<div class="line"><span class="lineno">  601</span>            <span class="keywordtype">bool</span> result =</div>
-<div class="line"><span class="lineno">  602</span>                levelCoordinates.x &gt;= 0 &amp;&amp;</div>
-<div class="line"><span class="lineno">  603</span>                levelCoordinates.x &lt; levelData.levelDimensionX &amp;&amp;</div>
-<div class="line"><span class="lineno">  604</span>                levelCoordinates.y &gt;= 0 &amp;&amp;</div>
-<div class="line"><span class="lineno">  605</span>                levelCoordinates.y &lt; <a class="code hl_property" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a769c1938ce37c4529e71bc7646ba53ba">levelData</a>.<a class="code hl_variable" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_level_data.html#ac265be40516c08215813ebed882e6195">levelDimensionY</a>;</div>
-<div class="line"><span class="lineno">  606</span> </div>
-<div class="line"><span class="lineno">  607</span>            <span class="keywordflow">if</span> (result == <span class="keyword">false</span> &amp;&amp; LogOutOfRange == <span class="keyword">true</span>)</div>
-<div class="line"><span class="lineno">  608</span>            {</div>
-<div class="line"><span class="lineno">  609</span>                Debug.LogFormat(<span class="stringliteral">&quot;Level coordinates \&quot;{0}\&quot; is out of grid range&quot;</span>, levelCoordinates);</div>
-<div class="line"><span class="lineno">  610</span>            }</div>
-<div class="line"><span class="lineno">  611</span> </div>
-<div class="line"><span class="lineno">  612</span>            <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno">  613</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">  634</span>        {</div>
+<div class="line"><span class="lineno">  635</span>            <span class="keywordtype">bool</span> result =</div>
+<div class="line"><span class="lineno">  636</span>                levelCoordinates.x &gt;= 0 &amp;&amp;</div>
+<div class="line"><span class="lineno">  637</span>                levelCoordinates.x &lt; levelData.levelDimensionX &amp;&amp;</div>
+<div class="line"><span class="lineno">  638</span>                levelCoordinates.y &gt;= 0 &amp;&amp;</div>
+<div class="line"><span class="lineno">  639</span>                levelCoordinates.y &lt; <a class="code hl_property" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a769c1938ce37c4529e71bc7646ba53ba">levelData</a>.<a class="code hl_variable" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_level_data.html#ac265be40516c08215813ebed882e6195">levelDimensionY</a>;</div>
+<div class="line"><span class="lineno">  640</span> </div>
+<div class="line"><span class="lineno">  641</span>            <span class="keywordflow">if</span> (result == <span class="keyword">false</span> &amp;&amp; LogOutOfRange == <span class="keyword">true</span>)</div>
+<div class="line"><span class="lineno">  642</span>            {</div>
+<div class="line"><span class="lineno">  643</span>                Debug.LogFormat(<span class="stringliteral">&quot;Level coordinates \&quot;{0}\&quot; is out of grid range&quot;</span>, levelCoordinates);</div>
+<div class="line"><span class="lineno">  644</span>            }</div>
+<div class="line"><span class="lineno">  645</span> </div>
+<div class="line"><span class="lineno">  646</span>            <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">  647</span>        }</div>
 <div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_1_1_level_data_html_ac265be40516c08215813ebed882e6195"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_level_data.html#ac265be40516c08215813ebed882e6195">FischlWorks_FogWar.csFogWar.LevelData.levelDimensionY</a></div><div class="ttdeci">int levelDimensionY</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:78</div></div>
-<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_a769c1938ce37c4529e71bc7646ba53ba"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#a769c1938ce37c4529e71bc7646ba53ba">FischlWorks_FogWar.csFogWar.levelData</a></div><div class="ttdeci">LevelData levelData</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:255</div></div>
+<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_a769c1938ce37c4529e71bc7646ba53ba"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#a769c1938ce37c4529e71bc7646ba53ba">FischlWorks_FogWar.csFogWar.levelData</a></div><div class="ttdeci">LevelData levelData</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:264</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a395fffd03ec3b5f099a1962078877b2e">FischlWorks_FogWar.csFogWar.CheckVisibility()</a>, and <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a1584e7a03801c25fadf7399b0e7cabd2">FischlWorks_FogWar.csFogWar.CheckWorldGridRange()</a>.</p>
 
@@ -282,47 +294,47 @@ Various public interfaces related to FogRevealer's FOV are also available. </p>
 </div><div class="memdoc">
 
 <p>Checks if the given pair of world coordinates and additionalRadius is visible by FogRevealers. </p>
-<div class="fragment"><div class="line"><span class="lineno">  629</span>        {</div>
-<div class="line"><span class="lineno">  630</span>            Vector2Int levelCoordinates = <a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a71bb4c2871850a9fb7bf3c48abdfaaa3">WorldToLevel</a>(worldCoordinates);</div>
-<div class="line"><span class="lineno">  631</span> </div>
-<div class="line"><span class="lineno">  632</span>            <span class="keywordflow">if</span> (additionalRadius == 0)</div>
-<div class="line"><span class="lineno">  633</span>            {</div>
-<div class="line"><span class="lineno">  634</span>                <span class="keywordflow">return</span> <a class="code hl_property" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a710e8df559ed4a03708e524f628658da">shadowcaster</a>.<a class="code hl_property" href="class_fischl_works___fog_war_1_1_shadowcaster.html#a73fe056741ebeb8798abf2f94f6e2da8">fogField</a>[levelCoordinates.x][levelCoordinates.y] == </div>
-<div class="line"><span class="lineno">  635</span>                    Shadowcaster.LevelColumn.ETileVisibility.Revealed;</div>
-<div class="line"><span class="lineno">  636</span>            }</div>
-<div class="line"><span class="lineno">  637</span> </div>
-<div class="line"><span class="lineno">  638</span>            <span class="keywordtype">int</span> scanResult = 0;</div>
-<div class="line"><span class="lineno">  639</span> </div>
-<div class="line"><span class="lineno">  640</span>            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> xIterator = -1; xIterator &lt; additionalRadius + 1; xIterator++)</div>
-<div class="line"><span class="lineno">  641</span>            {</div>
-<div class="line"><span class="lineno">  642</span>                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> yIterator = -1; yIterator &lt; additionalRadius + 1; yIterator++)</div>
-<div class="line"><span class="lineno">  643</span>                {</div>
-<div class="line"><span class="lineno">  644</span>                    <span class="keywordflow">if</span> (<a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a4709bc50c93832d24cf862babb385a55">CheckLevelGridRange</a>(<span class="keyword">new</span> Vector2Int(</div>
-<div class="line"><span class="lineno">  645</span>                        levelCoordinates.x + xIterator, </div>
-<div class="line"><span class="lineno">  646</span>                        levelCoordinates.y + yIterator)) == <span class="keyword">false</span>)</div>
-<div class="line"><span class="lineno">  647</span>                    {</div>
-<div class="line"><span class="lineno">  648</span>                        scanResult = 0;</div>
-<div class="line"><span class="lineno">  649</span> </div>
-<div class="line"><span class="lineno">  650</span>                        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  651</span>                    }</div>
-<div class="line"><span class="lineno">  652</span> </div>
-<div class="line"><span class="lineno">  653</span>                    scanResult += Convert.ToInt32(</div>
-<div class="line"><span class="lineno">  654</span>                        <a class="code hl_property" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a710e8df559ed4a03708e524f628658da">shadowcaster</a>.<a class="code hl_property" href="class_fischl_works___fog_war_1_1_shadowcaster.html#a73fe056741ebeb8798abf2f94f6e2da8">fogField</a>[levelCoordinates.x + xIterator][levelCoordinates.y + yIterator] == </div>
-<div class="line"><span class="lineno">  655</span>                        Shadowcaster.LevelColumn.ETileVisibility.Revealed);</div>
-<div class="line"><span class="lineno">  656</span>                }</div>
-<div class="line"><span class="lineno">  657</span>            }</div>
-<div class="line"><span class="lineno">  658</span> </div>
-<div class="line"><span class="lineno">  659</span>            <span class="keywordflow">if</span> (scanResult &gt; 0)</div>
-<div class="line"><span class="lineno">  660</span>            {</div>
-<div class="line"><span class="lineno">  661</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  662</span>            }</div>
-<div class="line"><span class="lineno">  663</span> </div>
-<div class="line"><span class="lineno">  664</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  665</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">  663</span>        {</div>
+<div class="line"><span class="lineno">  664</span>            Vector2Int levelCoordinates = <a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a71bb4c2871850a9fb7bf3c48abdfaaa3">WorldToLevel</a>(worldCoordinates);</div>
+<div class="line"><span class="lineno">  665</span> </div>
+<div class="line"><span class="lineno">  666</span>            <span class="keywordflow">if</span> (additionalRadius == 0)</div>
+<div class="line"><span class="lineno">  667</span>            {</div>
+<div class="line"><span class="lineno">  668</span>                <span class="keywordflow">return</span> <a class="code hl_property" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a710e8df559ed4a03708e524f628658da">shadowcaster</a>.<a class="code hl_property" href="class_fischl_works___fog_war_1_1_shadowcaster.html#a73fe056741ebeb8798abf2f94f6e2da8">fogField</a>[levelCoordinates.x][levelCoordinates.y] == </div>
+<div class="line"><span class="lineno">  669</span>                    Shadowcaster.LevelColumn.ETileVisibility.Revealed;</div>
+<div class="line"><span class="lineno">  670</span>            }</div>
+<div class="line"><span class="lineno">  671</span> </div>
+<div class="line"><span class="lineno">  672</span>            <span class="keywordtype">int</span> scanResult = 0;</div>
+<div class="line"><span class="lineno">  673</span> </div>
+<div class="line"><span class="lineno">  674</span>            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> xIterator = -1; xIterator &lt; additionalRadius + 1; xIterator++)</div>
+<div class="line"><span class="lineno">  675</span>            {</div>
+<div class="line"><span class="lineno">  676</span>                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> yIterator = -1; yIterator &lt; additionalRadius + 1; yIterator++)</div>
+<div class="line"><span class="lineno">  677</span>                {</div>
+<div class="line"><span class="lineno">  678</span>                    <span class="keywordflow">if</span> (<a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a4709bc50c93832d24cf862babb385a55">CheckLevelGridRange</a>(<span class="keyword">new</span> Vector2Int(</div>
+<div class="line"><span class="lineno">  679</span>                        levelCoordinates.x + xIterator, </div>
+<div class="line"><span class="lineno">  680</span>                        levelCoordinates.y + yIterator)) == <span class="keyword">false</span>)</div>
+<div class="line"><span class="lineno">  681</span>                    {</div>
+<div class="line"><span class="lineno">  682</span>                        scanResult = 0;</div>
+<div class="line"><span class="lineno">  683</span> </div>
+<div class="line"><span class="lineno">  684</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  685</span>                    }</div>
+<div class="line"><span class="lineno">  686</span> </div>
+<div class="line"><span class="lineno">  687</span>                    scanResult += Convert.ToInt32(</div>
+<div class="line"><span class="lineno">  688</span>                        <a class="code hl_property" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a710e8df559ed4a03708e524f628658da">shadowcaster</a>.<a class="code hl_property" href="class_fischl_works___fog_war_1_1_shadowcaster.html#a73fe056741ebeb8798abf2f94f6e2da8">fogField</a>[levelCoordinates.x + xIterator][levelCoordinates.y + yIterator] == </div>
+<div class="line"><span class="lineno">  689</span>                        Shadowcaster.LevelColumn.ETileVisibility.Revealed);</div>
+<div class="line"><span class="lineno">  690</span>                }</div>
+<div class="line"><span class="lineno">  691</span>            }</div>
+<div class="line"><span class="lineno">  692</span> </div>
+<div class="line"><span class="lineno">  693</span>            <span class="keywordflow">if</span> (scanResult &gt; 0)</div>
+<div class="line"><span class="lineno">  694</span>            {</div>
+<div class="line"><span class="lineno">  695</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  696</span>            }</div>
+<div class="line"><span class="lineno">  697</span> </div>
+<div class="line"><span class="lineno">  698</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  699</span>        }</div>
 <div class="ttc" id="aclass_fischl_works___fog_war_1_1_shadowcaster_html_a73fe056741ebeb8798abf2f94f6e2da8"><div class="ttname"><a href="class_fischl_works___fog_war_1_1_shadowcaster.html#a73fe056741ebeb8798abf2f94f6e2da8">FischlWorks_FogWar.Shadowcaster.fogField</a></div><div class="ttdeci">FogField fogField</div><div class="ttdef"><b>Definition:</b> Shadowcaster.cs:290</div></div>
-<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_a4709bc50c93832d24cf862babb385a55"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#a4709bc50c93832d24cf862babb385a55">FischlWorks_FogWar.csFogWar.CheckLevelGridRange</a></div><div class="ttdeci">bool CheckLevelGridRange(Vector2Int levelCoordinates)</div><div class="ttdoc">Checks if the given level coordinates are within level dimension range.</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:599</div></div>
-<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_a710e8df559ed4a03708e524f628658da"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#a710e8df559ed4a03708e524f628658da">FischlWorks_FogWar.csFogWar.shadowcaster</a></div><div class="ttdeci">Shadowcaster shadowcaster</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:253</div></div>
-<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_a71bb4c2871850a9fb7bf3c48abdfaaa3"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#a71bb4c2871850a9fb7bf3c48abdfaaa3">FischlWorks_FogWar.csFogWar.WorldToLevel</a></div><div class="ttdeci">Vector2Int WorldToLevel(Vector3 worldCoordinates)</div><div class="ttdoc">Converts unit (divided by unitScale, then rounded) world coordinates to level coordinates.</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:670</div></div>
+<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_a4709bc50c93832d24cf862babb385a55"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#a4709bc50c93832d24cf862babb385a55">FischlWorks_FogWar.csFogWar.CheckLevelGridRange</a></div><div class="ttdeci">bool CheckLevelGridRange(Vector2Int levelCoordinates)</div><div class="ttdoc">Checks if the given level coordinates are within level dimension range.</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:633</div></div>
+<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_a710e8df559ed4a03708e524f628658da"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#a710e8df559ed4a03708e524f628658da">FischlWorks_FogWar.csFogWar.shadowcaster</a></div><div class="ttdeci">Shadowcaster shadowcaster</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:262</div></div>
+<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_a71bb4c2871850a9fb7bf3c48abdfaaa3"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#a71bb4c2871850a9fb7bf3c48abdfaaa3">FischlWorks_FogWar.csFogWar.WorldToLevel</a></div><div class="ttdeci">Vector2Int WorldToLevel(Vector3 worldCoordinates)</div><div class="ttdoc">Converts unit (divided by unitScale, then rounded) world coordinates to level coordinates.</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:704</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -351,11 +363,11 @@ Various public interfaces related to FogRevealer's FOV are also available. </p>
 </div><div class="memdoc">
 
 <p>Checks if the given world coordinates are within level dimension range. </p>
-<div class="fragment"><div class="line"><span class="lineno">  619</span>        {</div>
-<div class="line"><span class="lineno">  620</span>            Vector2Int levelCoordinates = <a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a71bb4c2871850a9fb7bf3c48abdfaaa3">WorldToLevel</a>(worldCoordinates);</div>
-<div class="line"><span class="lineno">  621</span> </div>
-<div class="line"><span class="lineno">  622</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a4709bc50c93832d24cf862babb385a55">CheckLevelGridRange</a>(levelCoordinates);</div>
-<div class="line"><span class="lineno">  623</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">  653</span>        {</div>
+<div class="line"><span class="lineno">  654</span>            Vector2Int levelCoordinates = <a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a71bb4c2871850a9fb7bf3c48abdfaaa3">WorldToLevel</a>(worldCoordinates);</div>
+<div class="line"><span class="lineno">  655</span> </div>
+<div class="line"><span class="lineno">  656</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a4709bc50c93832d24cf862babb385a55">CheckLevelGridRange</a>(levelCoordinates);</div>
+<div class="line"><span class="lineno">  657</span>        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -384,11 +396,11 @@ Various public interfaces related to FogRevealer's FOV are also available. </p>
 </div><div class="memdoc">
 
 <p>Converts "pure" world coordinates into unit world coordinates. </p>
-<div class="fragment"><div class="line"><span class="lineno">  694</span>        {</div>
-<div class="line"><span class="lineno">  695</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> Vector2Int(<a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a4ed72f8e08fe94844b2bc7d7fcdb6b0f">GetUnitX</a>(worldCoordinates.x), <a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#ac9e13f07c30e6a2f6fdc62e36f3be250">GetUnitY</a>(worldCoordinates.z));</div>
-<div class="line"><span class="lineno">  696</span>        }</div>
-<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_a4ed72f8e08fe94844b2bc7d7fcdb6b0f"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#a4ed72f8e08fe94844b2bc7d7fcdb6b0f">FischlWorks_FogWar.csFogWar.GetUnitX</a></div><div class="ttdeci">int GetUnitX(float xValue)</div><div class="ttdoc">Converts world coordinate to unit world coordinates.</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:714</div></div>
-<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_ac9e13f07c30e6a2f6fdc62e36f3be250"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#ac9e13f07c30e6a2f6fdc62e36f3be250">FischlWorks_FogWar.csFogWar.GetUnitY</a></div><div class="ttdeci">int GetUnitY(float yValue)</div><div class="ttdoc">Converts world coordinate to unit world coordinates.</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:735</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  728</span>        {</div>
+<div class="line"><span class="lineno">  729</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> Vector2Int(<a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a4ed72f8e08fe94844b2bc7d7fcdb6b0f">GetUnitX</a>(worldCoordinates.x), <a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#ac9e13f07c30e6a2f6fdc62e36f3be250">GetUnitY</a>(worldCoordinates.z));</div>
+<div class="line"><span class="lineno">  730</span>        }</div>
+<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_a4ed72f8e08fe94844b2bc7d7fcdb6b0f"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#a4ed72f8e08fe94844b2bc7d7fcdb6b0f">FischlWorks_FogWar.csFogWar.GetUnitX</a></div><div class="ttdeci">int GetUnitX(float xValue)</div><div class="ttdoc">Converts world coordinate to unit world coordinates.</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:748</div></div>
+<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_ac9e13f07c30e6a2f6fdc62e36f3be250"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#ac9e13f07c30e6a2f6fdc62e36f3be250">FischlWorks_FogWar.csFogWar.GetUnitY</a></div><div class="ttdeci">int GetUnitY(float yValue)</div><div class="ttdoc">Converts world coordinate to unit world coordinates.</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:769</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a71bb4c2871850a9fb7bf3c48abdfaaa3">FischlWorks_FogWar.csFogWar.WorldToLevel()</a>.</p>
 
@@ -419,9 +431,9 @@ Various public interfaces related to FogRevealer's FOV are also available. </p>
 </div><div class="memdoc">
 
 <p>Converts world coordinate to unit world coordinates. </p>
-<div class="fragment"><div class="line"><span class="lineno">  715</span>        {</div>
-<div class="line"><span class="lineno">  716</span>            <span class="keywordflow">return</span> Mathf.RoundToInt((xValue - levelMidPoint.position.x) / unitScale);</div>
-<div class="line"><span class="lineno">  717</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">  749</span>        {</div>
+<div class="line"><span class="lineno">  750</span>            <span class="keywordflow">return</span> Mathf.RoundToInt((xValue - levelMidPoint.position.x) / unitScale);</div>
+<div class="line"><span class="lineno">  751</span>        }</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer.html#a5096277e2eb8b0abf9ebd9b94a3662a9">FischlWorks_FogWar.csFogWar.FogRevealer.GetCurrentLevelCoordinates()</a>, and <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#ada6ea5fa33abdcee005a34b9912a2913">FischlWorks_FogWar.csFogWar.GetUnitVector()</a>.</p>
 
@@ -452,9 +464,9 @@ Various public interfaces related to FogRevealer's FOV are also available. </p>
 </div><div class="memdoc">
 
 <p>Converts world coordinate to unit world coordinates. </p>
-<div class="fragment"><div class="line"><span class="lineno">  736</span>        {</div>
-<div class="line"><span class="lineno">  737</span>            <span class="keywordflow">return</span> Mathf.RoundToInt((yValue - levelMidPoint.position.z) / unitScale);</div>
-<div class="line"><span class="lineno">  738</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">  770</span>        {</div>
+<div class="line"><span class="lineno">  771</span>            <span class="keywordflow">return</span> Mathf.RoundToInt((yValue - levelMidPoint.position.z) / unitScale);</div>
+<div class="line"><span class="lineno">  772</span>        }</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer.html#a5096277e2eb8b0abf9ebd9b94a3662a9">FischlWorks_FogWar.csFogWar.FogRevealer.GetCurrentLevelCoordinates()</a>, and <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#ada6ea5fa33abdcee005a34b9912a2913">FischlWorks_FogWar.csFogWar.GetUnitVector()</a>.</p>
 
@@ -485,14 +497,14 @@ Various public interfaces related to FogRevealer's FOV are also available. </p>
 </div><div class="memdoc">
 
 <p>Converts level coordinates into world coordinates. </p>
-<div class="fragment"><div class="line"><span class="lineno">  683</span>        {</div>
-<div class="line"><span class="lineno">  684</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> Vector3(</div>
-<div class="line"><span class="lineno">  685</span>                <a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a1bf8313c42312daa0d32c981740b64e8">GetWorldX</a>(worldCoordinates.x + (levelDimensionX / 2)), </div>
-<div class="line"><span class="lineno">  686</span>                0, </div>
-<div class="line"><span class="lineno">  687</span>                <a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a9b7d5077db08594c488003af98db5f4a">GetWorldY</a>(worldCoordinates.y + (levelDimensionY / 2)));</div>
-<div class="line"><span class="lineno">  688</span>        }</div>
-<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_a1bf8313c42312daa0d32c981740b64e8"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#a1bf8313c42312daa0d32c981740b64e8">FischlWorks_FogWar.csFogWar.GetWorldX</a></div><div class="ttdeci">float GetWorldX(int xValue)</div><div class="ttdoc">Converts level coordinate to corresponding unit world coordinates.</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:701</div></div>
-<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_a9b7d5077db08594c488003af98db5f4a"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#a9b7d5077db08594c488003af98db5f4a">FischlWorks_FogWar.csFogWar.GetWorldY</a></div><div class="ttdeci">float GetWorldY(int yValue)</div><div class="ttdoc">Converts level coordinate to corresponding unit world coordinates.</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:722</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  717</span>        {</div>
+<div class="line"><span class="lineno">  718</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> Vector3(</div>
+<div class="line"><span class="lineno">  719</span>                <a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a1bf8313c42312daa0d32c981740b64e8">GetWorldX</a>(worldCoordinates.x + (levelDimensionX / 2)), </div>
+<div class="line"><span class="lineno">  720</span>                0, </div>
+<div class="line"><span class="lineno">  721</span>                <a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a9b7d5077db08594c488003af98db5f4a">GetWorldY</a>(worldCoordinates.y + (levelDimensionY / 2)));</div>
+<div class="line"><span class="lineno">  722</span>        }</div>
+<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_a1bf8313c42312daa0d32c981740b64e8"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#a1bf8313c42312daa0d32c981740b64e8">FischlWorks_FogWar.csFogWar.GetWorldX</a></div><div class="ttdeci">float GetWorldX(int xValue)</div><div class="ttdoc">Converts level coordinate to corresponding unit world coordinates.</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:735</div></div>
+<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_a9b7d5077db08594c488003af98db5f4a"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#a9b7d5077db08594c488003af98db5f4a">FischlWorks_FogWar.csFogWar.GetWorldY</a></div><div class="ttdeci">float GetWorldY(int yValue)</div><div class="ttdoc">Converts level coordinate to corresponding unit world coordinates.</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:756</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -521,14 +533,14 @@ Various public interfaces related to FogRevealer's FOV are also available. </p>
 </div><div class="memdoc">
 
 <p>Converts level coordinate to corresponding unit world coordinates. </p>
-<div class="fragment"><div class="line"><span class="lineno">  702</span>        {</div>
-<div class="line"><span class="lineno">  703</span>            <span class="keywordflow">if</span> (<a class="code hl_property" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a769c1938ce37c4529e71bc7646ba53ba">levelData</a>.<a class="code hl_variable" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_level_data.html#a6404a95d904f0a689fd80b97a95ecd56">levelDimensionX</a> % 2 == 0)</div>
-<div class="line"><span class="lineno">  704</span>            {</div>
-<div class="line"><span class="lineno">  705</span>                <span class="keywordflow">return</span> (levelMidPoint.position.x - ((levelDimensionX / 2.0f) - xValue) * unitScale);</div>
-<div class="line"><span class="lineno">  706</span>            }</div>
-<div class="line"><span class="lineno">  707</span> </div>
-<div class="line"><span class="lineno">  708</span>            <span class="keywordflow">return</span> (levelMidPoint.position.x - ((levelDimensionX / 2.0f) - (xValue + 0.5f)) * unitScale);</div>
-<div class="line"><span class="lineno">  709</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">  736</span>        {</div>
+<div class="line"><span class="lineno">  737</span>            <span class="keywordflow">if</span> (<a class="code hl_property" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a769c1938ce37c4529e71bc7646ba53ba">levelData</a>.<a class="code hl_variable" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_level_data.html#a6404a95d904f0a689fd80b97a95ecd56">levelDimensionX</a> % 2 == 0)</div>
+<div class="line"><span class="lineno">  738</span>            {</div>
+<div class="line"><span class="lineno">  739</span>                <span class="keywordflow">return</span> (levelMidPoint.position.x - ((levelDimensionX / 2.0f) - xValue) * unitScale);</div>
+<div class="line"><span class="lineno">  740</span>            }</div>
+<div class="line"><span class="lineno">  741</span> </div>
+<div class="line"><span class="lineno">  742</span>            <span class="keywordflow">return</span> (levelMidPoint.position.x - ((levelDimensionX / 2.0f) - (xValue + 0.5f)) * unitScale);</div>
+<div class="line"><span class="lineno">  743</span>        }</div>
 <div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_1_1_level_data_html_a6404a95d904f0a689fd80b97a95ecd56"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_level_data.html#a6404a95d904f0a689fd80b97a95ecd56">FischlWorks_FogWar.csFogWar.LevelData.levelDimensionX</a></div><div class="ttdeci">int levelDimensionX</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:77</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a6aa03681dca309f8e01b276d7cb94fc3">FischlWorks_FogWar.csFogWar.GetWorldVector()</a>.</p>
@@ -560,17 +572,86 @@ Various public interfaces related to FogRevealer's FOV are also available. </p>
 </div><div class="memdoc">
 
 <p>Converts level coordinate to corresponding unit world coordinates. </p>
-<div class="fragment"><div class="line"><span class="lineno">  723</span>        {</div>
-<div class="line"><span class="lineno">  724</span>            <span class="keywordflow">if</span> (<a class="code hl_property" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a769c1938ce37c4529e71bc7646ba53ba">levelData</a>.<a class="code hl_variable" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_level_data.html#ac265be40516c08215813ebed882e6195">levelDimensionY</a> % 2 == 0)</div>
-<div class="line"><span class="lineno">  725</span>            {</div>
-<div class="line"><span class="lineno">  726</span>                <span class="keywordflow">return</span> (levelMidPoint.position.z - ((levelDimensionY / 2.0f) - yValue) * unitScale);</div>
-<div class="line"><span class="lineno">  727</span>            }</div>
-<div class="line"><span class="lineno">  728</span> </div>
-<div class="line"><span class="lineno">  729</span>            <span class="keywordflow">return</span> (levelMidPoint.position.z - ((levelDimensionY / 2.0f) - (yValue + 0.5f)) * unitScale);</div>
-<div class="line"><span class="lineno">  730</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">  757</span>        {</div>
+<div class="line"><span class="lineno">  758</span>            <span class="keywordflow">if</span> (<a class="code hl_property" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a769c1938ce37c4529e71bc7646ba53ba">levelData</a>.<a class="code hl_variable" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_level_data.html#ac265be40516c08215813ebed882e6195">levelDimensionY</a> % 2 == 0)</div>
+<div class="line"><span class="lineno">  759</span>            {</div>
+<div class="line"><span class="lineno">  760</span>                <span class="keywordflow">return</span> (levelMidPoint.position.z - ((levelDimensionY / 2.0f) - yValue) * unitScale);</div>
+<div class="line"><span class="lineno">  761</span>            }</div>
+<div class="line"><span class="lineno">  762</span> </div>
+<div class="line"><span class="lineno">  763</span>            <span class="keywordflow">return</span> (levelMidPoint.position.z - ((levelDimensionY / 2.0f) - (yValue + 0.5f)) * unitScale);</div>
+<div class="line"><span class="lineno">  764</span>        }</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a6aa03681dca309f8e01b276d7cb94fc3">FischlWorks_FogWar.csFogWar.GetWorldVector()</a>.</p>
 
+</div>
+</div>
+<a id="af2a9e832047a123c9513bd5843165a1a" name="af2a9e832047a123c9513bd5843165a1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2a9e832047a123c9513bd5843165a1a">&#9670;&#160;</a></span>RemoveFogRevealer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FischlWorks_FogWar.csFogWar.RemoveFogRevealer </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>revealerIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes a FogRevealer instance from the list with index. </p>
+<div class="fragment"><div class="line"><span class="lineno">  611</span>        {</div>
+<div class="line"><span class="lineno">  612</span>            <span class="keywordflow">if</span> (fogRevealers.Count &gt; revealerIndex &amp;&amp; revealerIndex &gt; -1)</div>
+<div class="line"><span class="lineno">  613</span>            {</div>
+<div class="line"><span class="lineno">  614</span>                fogRevealers.RemoveAt(revealerIndex);</div>
+<div class="line"><span class="lineno">  615</span>            }</div>
+<div class="line"><span class="lineno">  616</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  617</span>            {</div>
+<div class="line"><span class="lineno">  618</span>                Debug.LogFormat(<span class="stringliteral">&quot;Given index of {0} exceeds the revealers&#39; container range&quot;</span>, revealerIndex);</div>
+<div class="line"><span class="lineno">  619</span>            }</div>
+<div class="line"><span class="lineno">  620</span>        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab7bec1575eb21e43f21c725b56429a2d" name="ab7bec1575eb21e43f21c725b56429a2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7bec1575eb21e43f21c725b56429a2d">&#9670;&#160;</a></span>ReplaceFogRevealerList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FischlWorks_FogWar.csFogWar.ReplaceFogRevealerList </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer.html">FogRevealer</a> &gt;&#160;</td>
+          <td class="paramname"><em>fogRevealers</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Replaces the FogRevealer list with the given one. </p>
+<div class="fragment"><div class="line"><span class="lineno">  626</span>        {</div>
+<div class="line"><span class="lineno">  627</span>            this.fogRevealers = fogRevealers;</div>
+<div class="line"><span class="lineno">  628</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a71bb4c2871850a9fb7bf3c48abdfaaa3" name="a71bb4c2871850a9fb7bf3c48abdfaaa3"></a>
@@ -598,20 +679,64 @@ Various public interfaces related to FogRevealer's FOV are also available. </p>
 </div><div class="memdoc">
 
 <p>Converts unit (divided by unitScale, then rounded) world coordinates to level coordinates. </p>
-<div class="fragment"><div class="line"><span class="lineno">  671</span>        {</div>
-<div class="line"><span class="lineno">  672</span>            Vector2Int unitWorldCoordinates = <a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#ada6ea5fa33abdcee005a34b9912a2913">GetUnitVector</a>(worldCoordinates);</div>
-<div class="line"><span class="lineno">  673</span> </div>
-<div class="line"><span class="lineno">  674</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> Vector2Int(</div>
-<div class="line"><span class="lineno">  675</span>                unitWorldCoordinates.x + (levelDimensionX / 2),</div>
-<div class="line"><span class="lineno">  676</span>                unitWorldCoordinates.y + (levelDimensionY / 2));</div>
-<div class="line"><span class="lineno">  677</span>        }</div>
-<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_ada6ea5fa33abdcee005a34b9912a2913"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#ada6ea5fa33abdcee005a34b9912a2913">FischlWorks_FogWar.csFogWar.GetUnitVector</a></div><div class="ttdeci">Vector2Int GetUnitVector(Vector3 worldCoordinates)</div><div class="ttdoc">Converts &quot;pure&quot; world coordinates into unit world coordinates.</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:693</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  705</span>        {</div>
+<div class="line"><span class="lineno">  706</span>            Vector2Int unitWorldCoordinates = <a class="code hl_function" href="class_fischl_works___fog_war_1_1cs_fog_war.html#ada6ea5fa33abdcee005a34b9912a2913">GetUnitVector</a>(worldCoordinates);</div>
+<div class="line"><span class="lineno">  707</span> </div>
+<div class="line"><span class="lineno">  708</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> Vector2Int(</div>
+<div class="line"><span class="lineno">  709</span>                unitWorldCoordinates.x + (levelDimensionX / 2),</div>
+<div class="line"><span class="lineno">  710</span>                unitWorldCoordinates.y + (levelDimensionY / 2));</div>
+<div class="line"><span class="lineno">  711</span>        }</div>
+<div class="ttc" id="aclass_fischl_works___fog_war_1_1cs_fog_war_html_ada6ea5fa33abdcee005a34b9912a2913"><div class="ttname"><a href="class_fischl_works___fog_war_1_1cs_fog_war.html#ada6ea5fa33abdcee005a34b9912a2913">FischlWorks_FogWar.csFogWar.GetUnitVector</a></div><div class="ttdeci">Vector2Int GetUnitVector(Vector3 worldCoordinates)</div><div class="ttdoc">Converts &quot;pure&quot; world coordinates into unit world coordinates.</div><div class="ttdef"><b>Definition:</b> csFogWar.cs:727</div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a395fffd03ec3b5f099a1962078877b2e">FischlWorks_FogWar.csFogWar.CheckVisibility()</a>, and <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a1584e7a03801c25fadf7399b0e7cabd2">FischlWorks_FogWar.csFogWar.CheckWorldGridRange()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="afd464799b6396d9fcdea5da93caca6af" name="afd464799b6396d9fcdea5da93caca6af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd464799b6396d9fcdea5da93caca6af">&#9670;&#160;</a></span>_FogRevealers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war_1_1_fog_revealer.html">FogRevealer</a>&gt; FischlWorks_FogWar.csFogWar._FogRevealers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa55ae68cd6fafd4eaebc64fae566be5e" name="aa55ae68cd6fafd4eaebc64fae566be5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa55ae68cd6fafd4eaebc64fae566be5e">&#9670;&#160;</a></span>_LevelMidPoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform FischlWorks_FogWar.csFogWar._LevelMidPoint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa5e2f27196004a975a3e6c9c8bf8077c" name="aa5e2f27196004a975a3e6c9c8bf8077c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa5e2f27196004a975a3e6c9c8bf8077c">&#9670;&#160;</a></span>_UnitScale</h2>
 
@@ -653,7 +778,7 @@ Various public interfaces related to FogRevealer's FOV are also available. </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  255</span>{ <span class="keyword">get</span>; <span class="keyword">private</span> <span class="keyword">set</span>; } = <span class="keyword">new</span> LevelData();</div>
+<div class="fragment"><div class="line"><span class="lineno">  264</span>{ <span class="keyword">get</span>; <span class="keyword">private</span> <span class="keyword">set</span>; } = <span class="keyword">new</span> LevelData();</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a4709bc50c93832d24cf862babb385a55">FischlWorks_FogWar.csFogWar.CheckLevelGridRange()</a>, <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a1bf8313c42312daa0d32c981740b64e8">FischlWorks_FogWar.csFogWar.GetWorldX()</a>, <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a9b7d5077db08594c488003af98db5f4a">FischlWorks_FogWar.csFogWar.GetWorldY()</a>, and <a class="el" href="class_fischl_works___fog_war_1_1_shadowcaster.html#a8e04b768fa4e39328ddda857daf2e114">FischlWorks_FogWar.Shadowcaster.Initialize()</a>.</p>
 
@@ -678,7 +803,7 @@ Various public interfaces related to FogRevealer's FOV are also available. </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  253</span>{ <span class="keyword">get</span>; <span class="keyword">private</span> <span class="keyword">set</span>; } = <span class="keyword">new</span> Shadowcaster();</div>
+<div class="fragment"><div class="line"><span class="lineno">  262</span>{ <span class="keyword">get</span>; <span class="keyword">private</span> <span class="keyword">set</span>; } = <span class="keyword">new</span> Shadowcaster();</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="class_fischl_works___fog_war_1_1cs_fog_war.html#a395fffd03ec3b5f099a1962078877b2e">FischlWorks_FogWar.csFogWar.CheckVisibility()</a>.</p>
 

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['processleveldata_0',['ProcessLevelData',['../class_fischl_works___fog_war_1_1_shadowcaster.html#a6e36d850e6f4f29c528eed1b40295f75',1,'FischlWorks_FogWar::Shadowcaster']]]
+  ['levelcolumn_0',['LevelColumn',['../class_fischl_works___fog_war_1_1cs_fog_war_1_1_level_column.html#ac97d769842cca71858ccc68efbe144db',1,'FischlWorks_FogWar.csFogWar.LevelColumn.LevelColumn()'],['../class_fischl_works___fog_war_1_1_shadowcaster_1_1_level_column.html#a6f033625afa4a98f75670fa3aa15586d',1,'FischlWorks_FogWar.Shadowcaster.LevelColumn.LevelColumn()']]]
 ];
